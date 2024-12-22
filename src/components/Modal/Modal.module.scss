@@ -1,0 +1,15 @@
+@import '../../variables/variables.scss';
+
+.modal {
+    background-color: $bg_second_color;
+    border-radius: $normal_radius;
+    padding: 32px;
+    width: 500px;
+    max-height: 500px;
+    position: absolute;
+    right: -520px;
+    top: 90px;
+}
+.modal-show {
+    right: 20px;
+}

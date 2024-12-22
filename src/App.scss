@@ -1,0 +1,35 @@
+// @ts-ignore
+@import-normalize;
+@import './variables/variables.scss';
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  transition: all ease 0.2s;
+}
+html {
+  line-height: 120%;
+}
+
+body {
+  background-color: $bg_color;
+  font-size: 18px;
+  font-family: "IBM Plex Sans", serif;
+  overflow-x: hidden;
+}
+
+.container  {
+  max-width: 1440px;
+  padding: 0 20px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}

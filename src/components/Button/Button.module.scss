@@ -1,0 +1,17 @@
+@import '../../variables/variables.scss';
+
+.button {
+    background-color: $main_color;
+    border-radius: $tiny_radius;
+    border: none;
+    outline: none;
+    padding: 0 24px;
+    height: 40px;
+    color: $white_color;
+    font-family: inherit;
+    font-weight: 500;
+    cursor: pointer;
+    &:hover {
+        opacity: 0.8;
+    }
+}

@@ -1,0 +1,23 @@
+@import '../../variables/variables.scss';
+
+.wrapper {
+    position: relative;
+}
+.search {
+    opacity: 0.5;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translate(35%,-50%);
+}
+.input {
+    padding: 11.5px 32px;
+    background-color: $bg_third_color;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    border-radius: $tiny_radius;
+    width: 100%;
+    color: #777E90;
+    font-size: 14px;
+}

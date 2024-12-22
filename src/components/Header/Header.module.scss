@@ -1,0 +1,12 @@
+.header {
+    padding: 32px;
+}
+.navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    &__wrapper{
+        display: flex;
+        align-items: center;
+    }
+}

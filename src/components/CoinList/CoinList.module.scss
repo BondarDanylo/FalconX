@@ -1,0 +1,60 @@
+@import '../../variables/variables.scss';
+
+.list {
+    margin-top: 32px;
+    max-height: 300px;
+    overflow-y: scroll;
+    &::-webkit-scrollbar {
+        width: 10px;
+    }
+    &::-webkit-scrollbar-track {
+        box-shadow: inset 0 0 6px #23262F;
+        border-radius: 10px;
+    }
+    &::-webkit-scrollbar-thumb {
+        background-color: #353945;
+        border-radius: 10px;
+    }
+    &__item {
+        padding: 8px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-right: 16px;
+        &:not(:last-child) {
+            margin-bottom: 8px;
+        }
+    }
+}
+.wrapper {
+    &:first-child {
+        display: flex;
+        align-items: center;
+    }
+    color: $white_color;
+    &:last-child {
+        text-align: right;  
+    }
+}
+.coin-icon {
+    border-radius: 100%;
+    width: 32px;
+    height: 32px;
+    margin-right: 10px;
+}
+.coin-title, .coin-price {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 3px;
+}
+.coin-name, .coin-change {
+    display: block;
+    font-size: 14px;
+    color: $gray_color;
+}
+.coin-profit {
+    color: #2FA766;
+}
+.coin-loss {
+    color: #E2464A;
+}
